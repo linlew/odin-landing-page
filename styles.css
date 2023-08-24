@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+flex-grow: 1;
+    background-color: grey;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}

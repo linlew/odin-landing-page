@@ -40,7 +40,8 @@ body {
 
 .header-logo {
     flex-grow: 1;
-    color: white;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .header-links {
@@ -64,7 +65,7 @@ body {
     min-height: 300px;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 
 .intro-sub {
@@ -79,8 +80,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
+    max-width: 375px;
 
 }
+
+.h-link , .text-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+
+}
+
 .hero-text-sub  {
     flex: 1;
     display: flex;
@@ -110,6 +120,8 @@ body {
     align-items: center;
     justify-content: center;
     min-width: 400px;
+    margin-left: 60px;
+    max-width: 500px;
 
 }
 .signup-button {
@@ -118,6 +130,7 @@ body {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
+    margin-top: 2px;
     min-width: 100px;
     max-width: 100px;
     min-height: 25px;
@@ -141,10 +154,12 @@ body {
     justify-content: center;
     flex-grow: 1;
 }
-.second-text {
 
+.info {
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
 }
-
 .image-caption {
     margin-right: 3vw;
     width: 100px;
@@ -171,6 +186,17 @@ body {
     min-height: 250px;
 }
 
+.quote {
+    font-size: 22px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1F2937;
+}
 .quote-box {
     width: 50vw;
     justify-content: center;
